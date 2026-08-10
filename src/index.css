@@ -1,0 +1,189 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Veridex — Decision infrastructure for the built environment.
+   Design system: off-black base, restrained cool accent, technical typography. */
+
+@layer base {
+  html { scroll-behavior: smooth; }
+
+  :root {
+    /* Light surfaces (used sparingly for contrast sections) */
+    --background: 40 14% 97%;
+    --foreground: 220 25% 8%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 8%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 8%;
+
+    /* Primary = deep ink */
+    --primary: 220 28% 9%;
+    --primary-foreground: 40 14% 97%;
+
+    --secondary: 220 14% 94%;
+    --secondary-foreground: 220 25% 8%;
+
+    --muted: 220 14% 94%;
+    --muted-foreground: 220 10% 42%;
+
+    /* Accent = restrained cool blue */
+    --accent: 212 95% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 14% 88%;
+    --input: 220 14% 88%;
+    --ring: 212 95% 55%;
+
+    --radius: 0.25rem;
+
+    /* Brand tokens */
+    --ink: 220 28% 7%;
+    --ink-2: 220 24% 12%;
+    --ink-3: 220 18% 18%;
+    --line: 220 14% 22%;
+    --line-soft: 220 14% 88%;
+    --paper: 40 14% 97%;
+    --paper-2: 40 10% 92%;
+    --signal: 212 95% 60%;
+    --signal-soft: 212 80% 70%;
+    --verify: 158 64% 48%;
+
+    --grid-line: 220 20% 90%;
+    --grid-line-dark: 220 18% 16%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 28% 7%;
+    --foreground: 40 14% 97%;
+    --card: 220 24% 10%;
+    --card-foreground: 40 14% 97%;
+    --popover: 220 24% 10%;
+    --popover-foreground: 40 14% 97%;
+    --primary: 40 14% 97%;
+    --primary-foreground: 220 28% 7%;
+    --secondary: 220 18% 14%;
+    --secondary-foreground: 40 14% 97%;
+    --muted: 220 18% 14%;
+    --muted-foreground: 220 10% 65%;
+    --accent: 212 95% 60%;
+    --accent-foreground: 220 28% 7%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 18% 18%;
+    --input: 220 18% 18%;
+    --ring: 212 95% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    font-feature-settings: 'ss01', 'cv11';
+  }
+  h1, h2, h3, h4 {
+    font-family: 'Inter Tight', 'Inter', ui-sans-serif, system-ui, sans-serif;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+  }
+  .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+}
+
+@layer components {
+  .container-edge {
+    @apply mx-auto w-full max-w-[1280px] px-6 md:px-10;
+  }
+  .label-mono {
+    @apply font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground;
+  }
+  .hairline {
+    background: hsl(var(--line-soft));
+    height: 1px;
+    width: 100%;
+  }
+  .hairline-dark {
+    background: hsl(var(--line));
+    height: 1px;
+    width: 100%;
+  }
+  .grid-bg {
+    background-image:
+      linear-gradient(hsl(var(--grid-line-dark) / 0.6) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--grid-line-dark) / 0.6) 1px, transparent 1px);
+    background-size: 64px 64px;
+    background-position: -1px -1px;
+  }
+  .grid-bg-light {
+    background-image:
+      linear-gradient(hsl(var(--grid-line) / 0.8) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--grid-line) / 0.8) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+  .radial-fade {
+    mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, black 40%, transparent 100%);
+    -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, black 40%, transparent 100%);
+  }
+  .corner-tick::before,
+  .corner-tick::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-color: hsl(var(--line));
+  }
+  .corner-tick::before {
+    top: -1px; left: -1px;
+    border-top: 1px solid; border-left: 1px solid;
+  }
+  .corner-tick::after {
+    bottom: -1px; right: -1px;
+    border-bottom: 1px solid; border-right: 1px solid;
+  }
+  .text-balance { text-wrap: balance; }
+}
+
+@keyframes scan {
+  0% { transform: translateY(-100%); opacity: 0; }
+  20% { opacity: 1; }
+  100% { transform: translateY(2200%); opacity: 0; }
+}
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.85); }
+}
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes flow {
+  0% { stroke-dashoffset: 200; }
+  100% { stroke-dashoffset: 0; }
+}
+.anim-scan { animation: scan 4s linear infinite; }
+.anim-pulse-dot { animation: pulse-dot 2.4s ease-in-out infinite; }
+.anim-ticker { animation: ticker 40s linear infinite; }
+.anim-flow { stroke-dasharray: 8 6; animation: flow 6s linear infinite; }
