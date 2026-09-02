@@ -123,7 +123,7 @@ export const translations: Record<Lang, Dictionary> = {
     footer: {
       tag: "Decision infrastructure for the built environment.",
       groups: [
-        { h: "Platform", l: ["Verification", "Reconciliation", "Reporting"] },
+        { h: "Platform", l: ["Namer", "Verification", "Reconciliation", "Reporting"] },
         { h: "Sectors", l: ["Real estate", "Construction", "Public sector"] },
         { h: "Company", l: ["About", "Blogg", "Press", "Contact"] },
         { h: "Legal", l: ["Terms", "Privacy Policy", "Security"] },
@@ -238,7 +238,7 @@ export const translations: Record<Lang, Dictionary> = {
     footer: {
       tag: "Beslutsinfrastruktur för den byggda miljön.",
       groups: [
-        { h: "Plattform", l: ["Verifiering", "Avstämning", "Rapportering"] },
+        { h: "Plattform", l: ["Namer", "Verifiering", "Avstämning", "Rapportering"] },
         { h: "Sektorer", l: ["Fastighet", "Bygg", "Offentlig sektor"] },
         { h: "Företag", l: ["Om oss", "Blogg", "Press", "Kontakt"] },
         { h: "Juridik", l: ["Villkor", "Integritetspolicy", "Säkerhet"] },

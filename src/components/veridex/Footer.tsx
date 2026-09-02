@@ -18,7 +18,9 @@ export const Footer = () => {
               <ul className="space-y-2.5">
                 {g.l.map((i) => (
                   <li key={i}>
-                    {(i === "Om oss" || i === "About") ? (
+                    {(i === "Namer") ? (
+                      <Link to="/namer" className="text-paper/70 hover:text-paper">{i}</Link>
+                    ) : (i === "Om oss" || i === "About") ? (
                       <Link to="/about" className="text-paper/70 hover:text-paper">{i}</Link>
                     ) : (i === "Blogg") ? (
                       <Link to="/blog" className="text-paper/70 hover:text-paper">{i}</Link>

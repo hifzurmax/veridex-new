@@ -9,6 +9,7 @@ import Blog from "./pages/Blog.tsx";
 import BlogPost from "./pages/BlogPost.tsx";
 import Press from "./pages/Press.tsx";
 import PressAnnouncement from "./pages/PressAnnouncement.tsx";
+import Namer from "./pages/Namer.tsx";
 import AdminLogin from "./pages/Admin.tsx";
 import AdminDashboard from "./pages/AdminDashboard.tsx";
 import Terms from "./pages/Terms.tsx";
@@ -33,6 +34,7 @@ const App = () => (
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/press" element={<Press />} />
             <Route path="/press/:slug" element={<PressAnnouncement />} />
+            <Route path="/namer" element={<Namer />} />
             <Route path="/admin" element={<AdminLogin />} />
             <Route path="/admin/dashboard" element={<AdminDashboard />} />
             <Route path="/terms" element={<Terms />} />

@@ -857,6 +857,153 @@ export const posts: BlogPost[] = [
     closing:
       "Detta är del 5 av 6 i Veridex granskning av Slussen-projektet.",
   },
+  {
+    slug: "insikt-9-2026-slussen-del-6",
+    category: "Granskning",
+    title: "En miljard investerad är inte en miljard i värde",
+    excerpt:
+      "Pengar som spenderas är inte samma sak som värde som skapas. Avslutande delen i Veridex granskning av Slussen och vad stora offentliga investeringar egentligen bör mätas mot.",
+    author: "Veridex Research",
+    date: "May 26, 2026",
+    readTime: "5 min read",
+    imageTone: "paper",
+    imageUrl: "https://ik.imagekit.io/quzt9q1jj/image.jpeg",
+    language: "sv",
+    series: "Slussen del 6 av 6",
+    intro: [
+      "\"Det är en historiskt stor satsning.\"",
+      "Så beskrev infrastrukturminister Andreas Carlson regeringens besked att avsätta en miljard kronor för att påbörja planeringen av Östlig förbindelse.",
+      "Men en stor satsning är inte automatiskt en bra investering. Det är samma tankefel som präglat diskussionen om Slussen: vi mäter hur mycket pengar som spenderas men inte vilket värde vi faktiskt får för dem.",
+      "För att bedöma en investering behöver en beställare känna till två saker:",
+      "1. Värdet av det som byggs",
+      "För en bostad är värdet relativt enkelt att mäta: det är vad en köpare är beredd att betala. För en bussterminal, tunnel eller vägförbindelse är det betydligt svårare. Där behöver nyttan bedömas samhällsekonomiskt, exempelvis genom restidsvinster, ökad kapacitet, minskad sårbarhet och förbättrad tillgänglighet. Det är analyser som bland andra Trafikverket arbetar med.",
+      "2. Kostnaden för det som byggs",
+      "Den borde vara enklare att fastställa: summan av material, arbetstid och övriga kostnader som projektet faktiskt har krävt.",
+      "Relationen mellan värde och kostnad visar om investeringen varit bra eller dålig.",
+      "Ett hus kostar två miljoner kronor att bygga och kan säljas för fyra miljoner. Värdet dividerat med kostnaden blir 2. En bra investering.",
+      "Samma hus kostar åtta miljoner kronor att bygga men kan fortfarande bara säljas för fyra miljoner. Kvoten blir 0,5. En dålig investering.",
+      "Problemet uppstår när vi blandar ihop tre helt olika saker: investeringsvilja, byggkostnad och skapat värde.",
+      "Vi beslutar att investera en miljard. Projektet kostar en miljard. Därför påstås det också vara värt en miljard.",
+      "Men pengar som spenderas är inte samma sak som värde som skapas.",
+    ],
+    sections: [
+      {
+        title: "När fel mått styr produktionen",
+        body: [
+          "Logiken för tankarna till den sovjetiska spikfabriken. När fabriker premierades utifrån hur många ton spik de producerade blev det rationellt att tillverka stora och tunga spikar trots att marknaden efterfrågade mindre standardspikar.",
+          "Fabrikerna nådde sina mål. Samhället fick ändå inte det som behövdes.",
+          "Samma mekanism uppstår när offentliga byggprojekt bedöms efter budgetens storlek eller projektets genomförande, snarare än efter relationen mellan samhällsnytta och faktisk kostnad. Vi riskerar att belöna aktivitet i stället för resultat.",
+          "Vad behöver då förändras?",
+          "Nyttan måste värderas, även när den är abstrakt. Det görs redan genom samhällsekonomiska analyser.",
+          "Investeringsbeslutet bör följa av att den förväntade nyttan överstiger kostnaden.",
+          "Byggkostnaden måste följas upp mot kalkylen - under hela projektet, inte bara när slutnotan redan ligger på bordet.",
+          "Det är framför allt den sista punkten som brister.",
+        ],
+      },
+      {
+        title: "Kalkylen finns - men används den?",
+        body: [
+          "Inför ett stort byggprojekt tar beställaren normalt in konsulter som beräknar mängder, materialkostnader och tidsåtgång.",
+          "Ett förenklat, hypotetiskt exempel:",
+          "Projektet kräver 1 000 kubikmeter betong. Betongen beräknas kosta 1 500 kronor per kubikmeter, totalt 1,5 miljoner kronor. Därtill läggs 25 procent för bland annat projektering och projektledning samt 10 procent för risk. Den kalkylerade materialkostnaden blir då cirka 2,1 miljoner kronor.",
+          "Om normaltiden för att gjuta en kubikmeter är 7,5 arbetstimmar och timkostnaden är 600 kronor, blir den beräknade arbetskostnaden 4,5 miljoner kronor. Eftersom gjutningen bedöms vara komplicerad läggs 50 procent mer tid på kalkylen. Arbetskostnaden blir då 6,75 miljoner kronor.",
+          "Den totala budgetposten för betongarbete och material blir cirka 8,8 miljoner kronor.",
+          "Sedan börjar produktionen.",
+          "När tidredovisningen kommer in visar den att enbart arbetet kostat 20 miljoner kronor - nästan tre gånger den kalkylerade arbetskostnaden.",
+          "Den självklara frågan borde vara: Hur gick det till? Vad förklarar avvikelsen? Är tidsåtgången rimlig i förhållande till arbetet som faktiskt utförts?",
+          "Men vid arbete på löpande räkning är beställarens möjlighet att invända mot slutkostnaden svagare än många tror.",
+        ],
+      },
+      {
+        title: "När löpande räkning blir en blank check",
+        body: [
+          "I den så kallade Nybropalatsdomen, Svea hovrätts dom den 10 mars 2016 i mål T 10408-14, konstaterade hovrätten att det avtalade priset följde av självkostnadsprincipen. Någon allmän skälighetsprövning av slutpriset enligt 45 § köplagen skulle därför inte göras.",
+          "Konsekvensen är principiellt viktig.",
+          "Beställaren kan inte utgå från att en kostnad får prövas som oskälig enbart för att den kraftigt överstiger kalkylen eller vad motsvarande arbete normalt borde kosta. Entreprenören kan ha rätt till ersättning enligt den avtalade självkostnadsprincipen, så länge kostnaderna kan redovisas och avtalsvillkoren i övrigt är uppfyllda.",
+          "Därmed försvagas en av skattebetalarnas mest grundläggande skyddsmekanismer: möjligheten att fråga om priset står i rimlig proportion till det arbete som utförts.",
+          "Samtidigt kan entreprenörens intäkter och vinst öka när fler timmar redovisas. Det skapar ett system där den ekonomiska drivkraften inte självklart är att utföra arbetet så effektivt som möjligt.",
+        ],
+      },
+      {
+        title: "Slussen är inte ett undantag",
+        body: [
+          "Löpande räkning är ibland oundvikligt, särskilt i ramavtal och stora, komplexa projekt där omfattningen inte kan förutses i detalj. Det betyder inte att modellen måste lämnas utan effektiv kontroll.",
+          "Det finns heller ingen ensam person eller aktör som kan göras ansvarig för kostnadsökningarna i Slussen eller andra stora infrastrukturprojekt. Slussen, Nya Karolinska och Västlänken är ytterst resultat av de system, avtal och incitament som vi själva har byggt.",
+          "Den tekniska utvecklingen ger oss nu helt nya möjligheter att löpande jämföra fakturor, tidsredovisning, kalkyler, producerade mängder och branschnormer. Avvikelser kan identifieras medan arbetet pågår - inte flera år senare, när pengarna redan är förbrukade.",
+          "Tekniken finns. Informationen finns. Kalkylerna finns.",
+          "Den verkliga frågan är om de stora konsult- och byggbolagen har något intresse av att förändra en modell som erbjuder löpande och förhållandevis riskfri ersättning och om offentliga beställare är beredda att kräva det.",
+          "En miljard investerad är inte automatiskt en miljard i värde.",
+          "Det är först när vi mäter vad som byggts, vad det borde ha kostat och vilken nytta det faktiskt skapar som vi kan avgöra om en investering var historiskt stor - eller historiskt dyr.",
+        ],
+      },
+    ],
+    closing:
+      "Detta är den avslutande delen i Veridex serie om Slussen. Informationen i serien bygger på offentliga källor och uppgifter som kommunicerats direkt av Stockholms stad. Läs författarens analys av vad som hade kunnat göras annorlunda i Slussenprojektet här: [länk].",
+  },
+  {
+    slug: "insikt-10-2026-stegra-palning-boden",
+    category: "Granskning",
+    title: "Ryktet säger tio miljarder för att påla Stegras anläggning utanför Boden",
+    excerpt:
+      "Uppgiften är obekräftad och behandlas som ett rykte. Men rykten går att pröva, och det behövs bara tre nyckeltal.",
+    author: "Veridex Research",
+    date: "May 27, 2026",
+    readTime: "5 min read",
+    imageTone: "signal",
+    imageUrl: "https://i.ibb.co/79fXXDf/Stegra-picture.png",
+    language: "sv",
+    series: "Veridex granskning 2026",
+    intro: [
+      "Ryktet säger tio miljarder för att påla Stegras anläggning utanför Boden. För de pengarna pålar man hela industriområdet.",
+      "Det går ett rykte i branschen om att det kostat tio miljarder kronor att påla Stegras anläggning utanför Boden. Jag räknade på det utifrån en gammal påloffert, Hur mycket pålning för man egentligen för 10 miljarder?",
+      "Uppgiften är obekräftad och jag behandlar den som ett rykte. Men rykten går att pröva, och det behövs bara tre nyckeltal.",
+    ],
+    sections: [
+      {
+        title: "Tre nyckeltal räcker",
+        body: [
+          "En påloffert jag hade liggande från 2020 ger ett á-pris på ungefär 1 200 kronor per meter för en borrad 220-påle med bärförmåga 1 700 kilonewton, alltså dimensionerad för tung industri. Pålhatt, skarvhylsa, kapning och betongfyllning ingår (utsättning försummas). Uppräknat till dagens nivå blir det runt 1 500 kronor per meter.",
+          "Djupet till berg anges i de offentliga mätpunkter SGU har ett par hundra meter från anläggningen till ungefär femton meter. Jag antar samma djup på platsen.",
+          "I normal industribyggnation sätts en påle per sex kvadratmeter platta och en per tre kvadratmeter kantbalk, grovt räknat en påle per fem kvadratmeter. Grundläggningen kostar då 4 500 kronor per kvadratmeter.",
+        ],
+      },
+      {
+        title: "Vad får man för tio miljarder?",
+        body: [
+          "Tio miljarder delat med 4 500 blir 2 220 000 kvadratmeter. Alltså 222 hektar pålad platta.",
+          "Teslas Gigafactory i Nevada har en byggnadsyta på knappt 18 hektar. För 10 miljarder hade man kunnat påla 13 sådana.",
+          "Vad pålas i verkligheten? Utifrån bilder av anläggningen bedömer jag den pålade ytan till omkring 300 000 kvadratmeter, drygt 12% av fastighetens yta. Det är elva procent av området. Kostnaden blir enligt räkningen ovan cirka 1,35 miljarder.",
+          "Siffrorna avviker givetvis från verkligheten, men åt båda hållen. Under betongplattan sätts glesare och klenare pålar än jag räknat med. Under fundament, balkar och tunga aggregat sätts fler och grövre.",
+        ],
+      },
+      {
+        title: "Om ryktet stämmer är pålningen bara tio till tjugo procent",
+        body: [
+          "Jag har då inte räknat med markförstärkning, arbetsvägar, vinterkostnader, projektering, projektledning eller etablering. Lägg till allt det generöst, hypotetiskt att det kostat lika mycket som det faktiska pålningsarbetet och material. Det täcker fortfarande bara 25% av 10 miljarder.",
+        ],
+      },
+      {
+        title: "Vad har sannolikt hänt",
+        body: [
+          "Min bedömning är att man projekterat om under pågående pålning. Var de anläggningstunga delarna ska stå har ändrats, och då blev det för få pålar där lasterna hamnade. Det ger fler pålar, nya pålar, pålar som aldrig kommer till användning, stillestånd för pålmaskiner, nya ritningar och tidsförlängning i hela kedjan.",
+          "Pålmaskinen rullade förmodligen inte långsammare än normalt. Kostnadsökningen skedde på kontoret.",
+          "Vad fick ledningen och investerarna veta? Antagligen att budgetposter flyttats men att budgeten är oförändrad. Och att det är svårt att påla i kallt klimat. Det senare är för övrigt fel. Tjälen är en fördel, för när marken är frusen sjunker inte pålmaskinen ner.",
+        ],
+      },
+      {
+        title: "Två nyckeltal hade räckt för att syna kostnaden",
+        body: [
+          "Det första: vad har vi i snitt betalat per borrad meter till pålentreprenören? Det är ett á-pris som går att jämföra mot marknaden direkt. Ligger snittet över 1 500 kronor per meter vet man omedelbart att något är fel, och man behöver inte veta vad för att veta att man ska fråga. Snittpriset fångar nämligen allt. Står maskinen stilla stiger kronor per meter. Sätts pålar som sedan aldrig används stiger kronor per meter. Ritas pålplanen om stiger kronor per meter.",
+          "Det andra:hur mycket har vi betalat totalt? Den siffran finns i huvudboken och kräver ingen analys alls.",
+          "Ställda mot varandra ger de två talen det enda som betyder något: hur stor andel av pengarna som gått till att faktiskt utföra byggmomentet, och hur stor andel som gått till allt annat som fakturerat projektet. Understiger utförandets andel tjugo procent bör varningsklockorna ringa.",
+          "Ingen av siffrorna kräver en utredning. Den ena står i ett kontrakt, den andra på ett kontoutdrag..",
+          "För att leverera ekonomirapporter i komplexa byggprojekt måste man förklara detaljerna så att ett barn förstår dem. Ett barn hade förstått de två talen ovan. Sannolikt landade de aldrig hos investerarna. Sannolikt har de fortfarande inte rapporterats.",
+        ],
+      },
+    ],
+    closing:
+      "Siffrorna bygger på en verklig påloffert, SGU:s öppna jorddjupsdata och offentligt tillgängliga uppgifter om anläggningen. Kostnadsuppgiften om tio miljarder är obekräftad och används som räkneexempel, inte som påstående om faktiska förhållanden.",
+  },
 ];
 
 export const getPostBySlug = (slug: string) => posts.find((post) => post.slug === slug);
